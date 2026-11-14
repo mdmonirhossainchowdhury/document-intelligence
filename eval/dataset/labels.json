@@ -1,0 +1,2608 @@
+{
+  "version": 1,
+  "seed": 7,
+  "samples": [
+    {
+      "id": "digital_00.pdf",
+      "path": "files/digital_00.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-4517",
+        "invoice_date": "2024-02-29",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": null,
+        "subtotal": 734.41,
+        "tax": null,
+        "total": 734.41,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Cloud storage",
+            "quantity": 1,
+            "unit_price": 69.83,
+            "amount": 69.83
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 2,
+            "unit_price": 332.29,
+            "amount": 664.58
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "multi-page",
+      "corrupt": false,
+      "tags": [
+        "missing_optional"
+      ]
+    },
+    {
+      "id": "digital_01.pdf",
+      "path": "files/digital_01.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2024-3181",
+        "invoice_date": "2024-08-14",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 345.66,
+        "tax": 34.57,
+        "total": 380.23,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Design work",
+            "quantity": 7,
+            "unit_price": 49.38,
+            "amount": 345.66
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_02.pdf",
+      "path": "files/digital_02.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-9711",
+        "invoice_date": "2025-05-23",
+        "supplier_name": "Riverside Stationery",
+        "customer_name": "Lotus Garments",
+        "subtotal": 1549.47,
+        "tax": 232.42,
+        "total": 1781.89,
+        "currency": "EUR",
+        "line_items": [
+          {
+            "description": "Training workshop",
+            "quantity": 2,
+            "unit_price": 495.23,
+            "amount": 990.46
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 1,
+            "unit_price": 559.01,
+            "amount": 559.01
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_03.pdf",
+      "path": "files/digital_03.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-3490",
+        "invoice_date": "2024-06-17",
+        "supplier_name": "Orion Hardware Co",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 9982.46,
+        "tax": 499.12,
+        "total": 10481.58,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 8,
+            "unit_price": 788.25,
+            "amount": 6306.0
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 5,
+            "unit_price": 550.02,
+            "amount": 2750.1
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 2,
+            "unit_price": 463.18,
+            "amount": 926.36
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_04.pdf",
+      "path": "files/digital_04.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-3753",
+        "invoice_date": "2025-04-17",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 4048.4,
+        "tax": 202.42,
+        "total": 4250.82,
+        "currency": "EUR",
+        "line_items": [
+          {
+            "description": "Consulting services",
+            "quantity": 2,
+            "unit_price": 850.49,
+            "amount": 1700.98
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 2,
+            "unit_price": 59.3,
+            "amount": 118.6
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 8,
+            "unit_price": 259.71,
+            "amount": 2077.68
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 6,
+            "unit_price": 25.19,
+            "amount": 151.14
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "multi-page",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_05.pdf",
+      "path": "files/digital_05.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2024-4800",
+        "invoice_date": "2024-06-29",
+        "supplier_name": "Pinecrest Logistics",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 14506.43,
+        "tax": null,
+        "total": 14506.43,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Cloud storage",
+            "quantity": 9,
+            "unit_price": 253.67,
+            "amount": 2283.03
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 7,
+            "unit_price": 778.27,
+            "amount": 5447.89
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 7,
+            "unit_price": 887.89,
+            "amount": 6215.23
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 4,
+            "unit_price": 140.07,
+            "amount": 560.28
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_06.pdf",
+      "path": "files/digital_06.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2024-8889",
+        "invoice_date": "2025-02-19",
+        "supplier_name": "Riverside Stationery",
+        "customer_name": null,
+        "subtotal": 16708.58,
+        "tax": 1670.86,
+        "total": 18379.44,
+        "currency": "EUR",
+        "line_items": [
+          {
+            "description": "Laptop stand",
+            "quantity": 9,
+            "unit_price": 855.45,
+            "amount": 7699.05
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 8,
+            "unit_price": 810.08,
+            "amount": 6480.64
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 7,
+            "unit_price": 361.27,
+            "amount": 2528.89
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "missing_optional"
+      ]
+    },
+    {
+      "id": "digital_07.pdf",
+      "path": "files/digital_07.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-7164",
+        "invoice_date": "2024-07-31",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 1776.55,
+        "tax": null,
+        "total": 1776.55,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 2,
+            "unit_price": 854.31,
+            "amount": 1708.62
+          },
+          {
+            "description": "Design work",
+            "quantity": 1,
+            "unit_price": 67.93,
+            "amount": 67.93
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "missing_optional"
+      ]
+    },
+    {
+      "id": "digital_08.pdf",
+      "path": "files/digital_08.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2024-9652",
+        "invoice_date": "2025-07-22",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 3483.12,
+        "tax": 174.16,
+        "total": 3657.28,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Support retainer",
+            "quantity": 2,
+            "unit_price": 133.99,
+            "amount": 267.98
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 5,
+            "unit_price": 433.37,
+            "amount": 2166.85
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 9,
+            "unit_price": 25.67,
+            "amount": 231.03
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 6,
+            "unit_price": 136.21,
+            "amount": 817.26
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "multi-page",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_09.pdf",
+      "path": "files/digital_09.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-1474",
+        "invoice_date": "2025-05-19",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Lotus Garments",
+        "subtotal": 3641.48,
+        "tax": 546.22,
+        "total": 4187.7,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Design work",
+            "quantity": 4,
+            "unit_price": 726.44,
+            "amount": 2905.76
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 4,
+            "unit_price": 183.93,
+            "amount": 735.72
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_10.pdf",
+      "path": "files/digital_10.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-6636",
+        "invoice_date": "2024-01-14",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Lotus Garments",
+        "subtotal": 3450.76,
+        "tax": 172.54,
+        "total": 3623.3,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Consulting services",
+            "quantity": 4,
+            "unit_price": 425.72,
+            "amount": 1702.88
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 4,
+            "unit_price": 436.97,
+            "amount": 1747.88
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_11.pdf",
+      "path": "files/digital_11.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-6741",
+        "invoice_date": "2025-04-30",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Karim & Sons",
+        "subtotal": 6960.91,
+        "tax": 696.09,
+        "total": 7657.0,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Printer cartridge",
+            "quantity": 7,
+            "unit_price": 670.3,
+            "amount": 4692.1
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 3,
+            "unit_price": 157.15,
+            "amount": 471.45
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 1,
+            "unit_price": 140.28,
+            "amount": 140.28
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 3,
+            "unit_price": 552.36,
+            "amount": 1657.08
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_12.pdf",
+      "path": "files/digital_12.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-9466",
+        "invoice_date": "2024-12-28",
+        "supplier_name": "Riverside Stationery",
+        "customer_name": null,
+        "subtotal": 3869.01,
+        "tax": 386.9,
+        "total": 4255.91,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Software license",
+            "quantity": 5,
+            "unit_price": 453.54,
+            "amount": 2267.7
+          },
+          {
+            "description": "Design work",
+            "quantity": 6,
+            "unit_price": 237.13,
+            "amount": 1422.78
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 3,
+            "unit_price": 59.51,
+            "amount": 178.53
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "multi-page",
+      "corrupt": false,
+      "tags": [
+        "missing_optional"
+      ]
+    },
+    {
+      "id": "digital_13.pdf",
+      "path": "files/digital_13.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-8905",
+        "invoice_date": "2025-06-14",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Karim & Sons",
+        "subtotal": 5015.23,
+        "tax": 250.76,
+        "total": 5265.99,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Laptop stand",
+            "quantity": 8,
+            "unit_price": 559.1,
+            "amount": 4472.8
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 9,
+            "unit_price": 60.27,
+            "amount": 542.43
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_14.pdf",
+      "path": "files/digital_14.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-4319",
+        "invoice_date": "2024-09-22",
+        "supplier_name": "Orion Hardware Co",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 17757.68,
+        "tax": null,
+        "total": 17757.68,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Training workshop",
+            "quantity": 9,
+            "unit_price": 547.49,
+            "amount": 4927.41
+          },
+          {
+            "description": "Software license",
+            "quantity": 5,
+            "unit_price": 409.85,
+            "amount": 2049.25
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 8,
+            "unit_price": 459.44,
+            "amount": 3675.52
+          },
+          {
+            "description": "Software license",
+            "quantity": 9,
+            "unit_price": 789.5,
+            "amount": 7105.5
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "missing_optional"
+      ]
+    },
+    {
+      "id": "digital_15.pdf",
+      "path": "files/digital_15.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-4597",
+        "invoice_date": "2024-05-20",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 2413.5,
+        "tax": null,
+        "total": 2413.5,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Support retainer",
+            "quantity": 2,
+            "unit_price": 807.84,
+            "amount": 1615.68
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 6,
+            "unit_price": 132.97,
+            "amount": 797.82
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_16.pdf",
+      "path": "files/digital_16.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-1296",
+        "invoice_date": "2025-04-14",
+        "supplier_name": "Riverside Stationery",
+        "customer_name": "Sunrise School Trust",
+        "subtotal": 832.55,
+        "tax": 124.88,
+        "total": 957.43,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Training workshop",
+            "quantity": 6,
+            "unit_price": 87.51,
+            "amount": 525.06
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 1,
+            "unit_price": 307.49,
+            "amount": 307.49
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "multi-page",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_17.pdf",
+      "path": "files/digital_17.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-9103",
+        "invoice_date": "2025-06-23",
+        "supplier_name": "Summit Cloud Services",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 7069.57,
+        "tax": 1060.44,
+        "total": 8130.01,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 3,
+            "unit_price": 247.05,
+            "amount": 741.15
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 7,
+            "unit_price": 765.38,
+            "amount": 5357.66
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 7,
+            "unit_price": 138.68,
+            "amount": 970.76
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "digital_18.pdf",
+      "path": "files/digital_18.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2024-5332",
+        "invoice_date": "2024-08-15",
+        "supplier_name": "Northwind Traders",
+        "customer_name": null,
+        "subtotal": 1098.64,
+        "tax": 54.93,
+        "total": 1153.57,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Support retainer",
+            "quantity": 2,
+            "unit_price": 549.32,
+            "amount": 1098.64
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "missing_optional"
+      ]
+    },
+    {
+      "id": "digital_19.pdf",
+      "path": "files/digital_19.pdf",
+      "category": "digital_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-8302",
+        "invoice_date": "2024-07-29",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Sunrise School Trust",
+        "subtotal": 2568.73,
+        "tax": 385.31,
+        "total": 2954.04,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Support retainer",
+            "quantity": 1,
+            "unit_price": 167.13,
+            "amount": 167.13
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 5,
+            "unit_price": 480.32,
+            "amount": 2401.6
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "scanned_pdf_00.pdf",
+      "path": "files/scanned_pdf_00.pdf",
+      "category": "scanned_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-6694",
+        "invoice_date": "2024-05-23",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Lotus Garments",
+        "subtotal": 16798.79,
+        "tax": 1679.88,
+        "total": 18478.67,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Consulting services",
+            "quantity": 7,
+            "unit_price": 592.58,
+            "amount": 4148.06
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 7,
+            "unit_price": 873.43,
+            "amount": 6114.01
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 4,
+            "unit_price": 884.28,
+            "amount": 3537.12
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 4,
+            "unit_price": 749.9,
+            "amount": 2999.6
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "scanned_pdf_01.pdf",
+      "path": "files/scanned_pdf_01.pdf",
+      "category": "scanned_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-9963",
+        "invoice_date": "2025-01-19",
+        "supplier_name": "Summit Cloud Services",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 3932.84,
+        "tax": 196.64,
+        "total": 4129.48,
+        "currency": "EUR",
+        "line_items": [
+          {
+            "description": "Design work",
+            "quantity": 4,
+            "unit_price": 624.95,
+            "amount": 2499.8
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 8,
+            "unit_price": 170.89,
+            "amount": 1367.12
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 8,
+            "unit_price": 8.24,
+            "amount": 65.92
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "scanned_pdf_02.pdf",
+      "path": "files/scanned_pdf_02.pdf",
+      "category": "scanned_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-1368",
+        "invoice_date": "2024-02-24",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Sunrise School Trust",
+        "subtotal": 2479.02,
+        "tax": 247.9,
+        "total": 2726.92,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 4,
+            "unit_price": 227.12,
+            "amount": 908.48
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 2,
+            "unit_price": 241.43,
+            "amount": 482.86
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 3,
+            "unit_price": 362.56,
+            "amount": 1087.68
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "scanned_pdf_03.pdf",
+      "path": "files/scanned_pdf_03.pdf",
+      "category": "scanned_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-1263",
+        "invoice_date": "2025-05-31",
+        "supplier_name": "Pinecrest Logistics",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 11099.5,
+        "tax": 554.98,
+        "total": 11654.48,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Laptop stand",
+            "quantity": 5,
+            "unit_price": 653.12,
+            "amount": 3265.6
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 1,
+            "unit_price": 743.25,
+            "amount": 743.25
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 7,
+            "unit_price": 661.8,
+            "amount": 4632.6
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 3,
+            "unit_price": 819.35,
+            "amount": 2458.05
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "scanned_pdf_04.pdf",
+      "path": "files/scanned_pdf_04.pdf",
+      "category": "scanned_pdf",
+      "expected": {
+        "invoice_number": "INV-2025-2148",
+        "invoice_date": "2024-01-16",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 1771.68,
+        "tax": 88.58,
+        "total": 1860.26,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 4,
+            "unit_price": 442.92,
+            "amount": 1771.68
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "scanned_pdf_05.pdf",
+      "path": "files/scanned_pdf_05.pdf",
+      "category": "scanned_pdf",
+      "expected": {
+        "invoice_number": "INV-2026-3186",
+        "invoice_date": "2024-11-19",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 5097.03,
+        "tax": 254.85,
+        "total": 5351.88,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Printer cartridge",
+            "quantity": 7,
+            "unit_price": 73.68,
+            "amount": 515.76
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 1,
+            "unit_price": 557.19,
+            "amount": 557.19
+          },
+          {
+            "description": "Software license",
+            "quantity": 2,
+            "unit_price": 541.74,
+            "amount": 1083.48
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 5,
+            "unit_price": 588.12,
+            "amount": 2940.6
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_00.png",
+      "path": "files/image_00.png",
+      "category": "image_clean",
+      "expected": {
+        "invoice_number": "INV-2025-7338",
+        "invoice_date": "2025-04-17",
+        "supplier_name": "Pinecrest Logistics",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 4566.78,
+        "tax": 228.34,
+        "total": 4795.12,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Printer cartridge",
+            "quantity": 2,
+            "unit_price": 894.0,
+            "amount": 1788.0
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 4,
+            "unit_price": 283.95,
+            "amount": 1135.8
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 8,
+            "unit_price": 20.67,
+            "amount": 165.36
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 2,
+            "unit_price": 738.81,
+            "amount": 1477.62
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_01.png",
+      "path": "files/image_01.png",
+      "category": "image_clean",
+      "expected": {
+        "invoice_number": "INV-2025-3305",
+        "invoice_date": "2025-02-19",
+        "supplier_name": "Riverside Stationery",
+        "customer_name": "Sunrise School Trust",
+        "subtotal": 11578.37,
+        "tax": null,
+        "total": 11578.37,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Software license",
+            "quantity": 8,
+            "unit_price": 808.45,
+            "amount": 6467.6
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 7,
+            "unit_price": 27.23,
+            "amount": 190.61
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 8,
+            "unit_price": 615.02,
+            "amount": 4920.16
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_02.png",
+      "path": "files/image_02.png",
+      "category": "image_clean",
+      "expected": {
+        "invoice_number": "INV-2025-8013",
+        "invoice_date": "2024-03-19",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Lotus Garments",
+        "subtotal": 3637.43,
+        "tax": 181.87,
+        "total": 3819.3,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 5,
+            "unit_price": 231.62,
+            "amount": 1158.1
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 7,
+            "unit_price": 354.19,
+            "amount": 2479.33
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_03.png",
+      "path": "files/image_03.png",
+      "category": "image_clean",
+      "expected": {
+        "invoice_number": "INV-2025-3270",
+        "invoice_date": "2025-02-24",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 11933.89,
+        "tax": 596.69,
+        "total": 12530.58,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 6,
+            "unit_price": 174.91,
+            "amount": 1049.46
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 7,
+            "unit_price": 796.42,
+            "amount": 5574.94
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 9,
+            "unit_price": 496.56,
+            "amount": 4469.04
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 1,
+            "unit_price": 840.45,
+            "amount": 840.45
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_04.png",
+      "path": "files/image_04.png",
+      "category": "image_clean",
+      "expected": {
+        "invoice_number": "INV-2026-4604",
+        "invoice_date": "2025-05-24",
+        "supplier_name": "Orion Hardware Co",
+        "customer_name": "Sunrise School Trust",
+        "subtotal": 2264.29,
+        "tax": null,
+        "total": 2264.29,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Cloud storage",
+            "quantity": 4,
+            "unit_price": 274.25,
+            "amount": 1097.0
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 7,
+            "unit_price": 112.17,
+            "amount": 785.19
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 2,
+            "unit_price": 191.05,
+            "amount": 382.1
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_05.png",
+      "path": "files/image_05.png",
+      "category": "image_clean",
+      "expected": {
+        "invoice_number": "INV-2024-1329",
+        "invoice_date": "2025-08-18",
+        "supplier_name": "Riverside Stationery",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 1338.52,
+        "tax": null,
+        "total": 1338.52,
+        "currency": "EUR",
+        "line_items": [
+          {
+            "description": "Training workshop",
+            "quantity": 4,
+            "unit_price": 334.63,
+            "amount": 1338.52
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_06_degraded.png",
+      "path": "files/image_06_degraded.png",
+      "category": "image_degraded",
+      "expected": {
+        "invoice_number": "INV-2025-6112",
+        "invoice_date": "2025-04-13",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 7342.52,
+        "tax": 367.13,
+        "total": 7709.65,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Laptop stand",
+            "quantity": 9,
+            "unit_price": 478.66,
+            "amount": 4307.94
+          },
+          {
+            "description": "Software license",
+            "quantity": 2,
+            "unit_price": 247.56,
+            "amount": 495.12
+          },
+          {
+            "description": "Software license",
+            "quantity": 7,
+            "unit_price": 362.78,
+            "amount": 2539.46
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_07_degraded.png",
+      "path": "files/image_07_degraded.png",
+      "category": "image_degraded",
+      "expected": {
+        "invoice_number": "INV-2024-1647",
+        "invoice_date": "2025-04-13",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Lotus Garments",
+        "subtotal": 2267.94,
+        "tax": 226.79,
+        "total": 2494.73,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Consulting services",
+            "quantity": 4,
+            "unit_price": 143.17,
+            "amount": 572.68
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 2,
+            "unit_price": 847.63,
+            "amount": 1695.26
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_08_degraded.png",
+      "path": "files/image_08_degraded.png",
+      "category": "image_degraded",
+      "expected": {
+        "invoice_number": "INV-2024-7358",
+        "invoice_date": "2025-08-19",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 547.62,
+        "tax": 27.38,
+        "total": 575.0,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Consulting services",
+            "quantity": 2,
+            "unit_price": 273.81,
+            "amount": 547.62
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_09_degraded.png",
+      "path": "files/image_09_degraded.png",
+      "category": "image_degraded",
+      "expected": {
+        "invoice_number": "INV-2025-7881",
+        "invoice_date": "2024-07-17",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Sunrise School Trust",
+        "subtotal": 397.34,
+        "tax": 39.73,
+        "total": 437.07,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 4,
+            "unit_price": 31.21,
+            "amount": 124.84
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 5,
+            "unit_price": 54.5,
+            "amount": 272.5
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_10_degraded.png",
+      "path": "files/image_10_degraded.png",
+      "category": "image_degraded",
+      "expected": {
+        "invoice_number": "INV-2025-2785",
+        "invoice_date": "2024-09-28",
+        "supplier_name": "Orion Hardware Co",
+        "customer_name": "Karim & Sons",
+        "subtotal": 6233.03,
+        "tax": 623.3,
+        "total": 6856.33,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Software license",
+            "quantity": 1,
+            "unit_price": 718.37,
+            "amount": 718.37
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 2,
+            "unit_price": 188.67,
+            "amount": 377.34
+          },
+          {
+            "description": "Software license",
+            "quantity": 5,
+            "unit_price": 690.44,
+            "amount": 3452.2
+          },
+          {
+            "description": "Software license",
+            "quantity": 4,
+            "unit_price": 421.28,
+            "amount": 1685.12
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "image_11_degraded.png",
+      "path": "files/image_11_degraded.png",
+      "category": "image_degraded",
+      "expected": {
+        "invoice_number": "INV-2026-2854",
+        "invoice_date": "2024-11-17",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 2201.37,
+        "tax": 330.21,
+        "total": 2531.58,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 3,
+            "unit_price": 376.77,
+            "amount": 1130.31
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 3,
+            "unit_price": 357.02,
+            "amount": 1071.06
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_00.xlsx",
+      "path": "files/sheet_00.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2025-2437",
+        "invoice_date": "2024-11-24",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 10735.7,
+        "tax": null,
+        "total": 10735.7,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Laptop stand",
+            "quantity": 2,
+            "unit_price": 7.57,
+            "amount": 15.14
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 2,
+            "unit_price": 319.56,
+            "amount": 639.12
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 9,
+            "unit_price": 868.02,
+            "amount": 7812.18
+          },
+          {
+            "description": "Software license",
+            "quantity": 7,
+            "unit_price": 324.18,
+            "amount": 2269.26
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_01.xlsx",
+      "path": "files/sheet_01.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2026-1714",
+        "invoice_date": "2024-12-21",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 3654.25,
+        "tax": 548.14,
+        "total": 4202.39,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Software license",
+            "quantity": 7,
+            "unit_price": 41.38,
+            "amount": 289.66
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 8,
+            "unit_price": 61.01,
+            "amount": 488.08
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 5,
+            "unit_price": 179.47,
+            "amount": 897.35
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 6,
+            "unit_price": 329.86,
+            "amount": 1979.16
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_02.xlsx",
+      "path": "files/sheet_02.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2025-8549",
+        "invoice_date": "2024-12-13",
+        "supplier_name": "Summit Cloud Services",
+        "customer_name": "Lotus Garments",
+        "subtotal": 8988.82,
+        "tax": 449.44,
+        "total": 9438.26,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Cloud storage",
+            "quantity": 5,
+            "unit_price": 822.62,
+            "amount": 4113.1
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 3,
+            "unit_price": 835.65,
+            "amount": 2506.95
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 1,
+            "unit_price": 723.3,
+            "amount": 723.3
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 3,
+            "unit_price": 548.49,
+            "amount": 1645.47
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_03.xlsx",
+      "path": "files/sheet_03.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2024-4837",
+        "invoice_date": "2025-04-14",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 9153.77,
+        "tax": null,
+        "total": 9153.77,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Laptop stand",
+            "quantity": 7,
+            "unit_price": 795.71,
+            "amount": 5569.97
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 5,
+            "unit_price": 564.02,
+            "amount": 2820.1
+          },
+          {
+            "description": "Software license",
+            "quantity": 2,
+            "unit_price": 381.85,
+            "amount": 763.7
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_04.xlsx",
+      "path": "files/sheet_04.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2024-6346",
+        "invoice_date": "2025-08-15",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 5708.33,
+        "tax": 856.25,
+        "total": 6564.58,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Training workshop",
+            "quantity": 5,
+            "unit_price": 665.57,
+            "amount": 3327.85
+          },
+          {
+            "description": "Software license",
+            "quantity": 8,
+            "unit_price": 226.45,
+            "amount": 1811.6
+          },
+          {
+            "description": "Software license",
+            "quantity": 4,
+            "unit_price": 142.22,
+            "amount": 568.88
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_05.xlsx",
+      "path": "files/sheet_05.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2025-7125",
+        "invoice_date": "2024-08-24",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Sunrise School Trust",
+        "subtotal": 6361.04,
+        "tax": 636.1,
+        "total": 6997.14,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 8,
+            "unit_price": 795.13,
+            "amount": 6361.04
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_06.xlsx",
+      "path": "files/sheet_06.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2025-1626",
+        "invoice_date": "2024-07-27",
+        "supplier_name": "Pinecrest Logistics",
+        "customer_name": "Lotus Garments",
+        "subtotal": 3138.96,
+        "tax": 156.95,
+        "total": 3295.91,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 2,
+            "unit_price": 575.52,
+            "amount": 1151.04
+          },
+          {
+            "description": "Design work",
+            "quantity": 6,
+            "unit_price": 199.79,
+            "amount": 1198.74
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 6,
+            "unit_price": 131.53,
+            "amount": 789.18
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_07.xlsx",
+      "path": "files/sheet_07.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2025-6039",
+        "invoice_date": "2025-02-23",
+        "supplier_name": "Riverside Stationery",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 9859.09,
+        "tax": 1478.86,
+        "total": 11337.95,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 8,
+            "unit_price": 61.63,
+            "amount": 493.04
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 7,
+            "unit_price": 599.3,
+            "amount": 4195.1
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 9,
+            "unit_price": 86.58,
+            "amount": 779.22
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 7,
+            "unit_price": 627.39,
+            "amount": 4391.73
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_08.xlsx",
+      "path": "files/sheet_08.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2024-1846",
+        "invoice_date": "2024-05-13",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 10369.87,
+        "tax": null,
+        "total": 10369.87,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Software license",
+            "quantity": 1,
+            "unit_price": 393.58,
+            "amount": 393.58
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 7,
+            "unit_price": 106.62,
+            "amount": 746.34
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 7,
+            "unit_price": 522.13,
+            "amount": 3654.91
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 8,
+            "unit_price": 696.88,
+            "amount": 5575.04
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_09.xlsx",
+      "path": "files/sheet_09.xlsx",
+      "category": "xlsx",
+      "expected": {
+        "invoice_number": "INV-2025-6153",
+        "invoice_date": "2024-02-14",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Karim & Sons",
+        "subtotal": 2717.38,
+        "tax": null,
+        "total": 2717.38,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Laptop stand",
+            "quantity": 9,
+            "unit_price": 158.75,
+            "amount": 1428.75
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 2,
+            "unit_price": 348.44,
+            "amount": 696.88
+          },
+          {
+            "description": "Software license",
+            "quantity": 5,
+            "unit_price": 118.35,
+            "amount": 591.75
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_00.csv",
+      "path": "files/sheet_00.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2025-6885",
+        "invoice_date": "2024-06-21",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 7448.18,
+        "tax": 744.82,
+        "total": 8193.0,
+        "currency": "EUR",
+        "line_items": [
+          {
+            "description": "Printer cartridge",
+            "quantity": 3,
+            "unit_price": 511.06,
+            "amount": 1533.18
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 7,
+            "unit_price": 845.0,
+            "amount": 5915.0
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_01.csv",
+      "path": "files/sheet_01.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2025-4854",
+        "invoice_date": "2025-05-16",
+        "supplier_name": "Orion Hardware Co",
+        "customer_name": "Lotus Garments",
+        "subtotal": 8127.3,
+        "tax": null,
+        "total": 8127.3,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 5,
+            "unit_price": 585.88,
+            "amount": 2929.4
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 4,
+            "unit_price": 386.04,
+            "amount": 1544.16
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 8,
+            "unit_price": 455.7,
+            "amount": 3645.6
+          },
+          {
+            "description": "Laptop stand",
+            "quantity": 1,
+            "unit_price": 8.14,
+            "amount": 8.14
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_02.csv",
+      "path": "files/sheet_02.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2024-3134",
+        "invoice_date": "2024-02-23",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 4154.31,
+        "tax": 623.15,
+        "total": 4777.46,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Printer cartridge",
+            "quantity": 9,
+            "unit_price": 461.59,
+            "amount": 4154.31
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_03.csv",
+      "path": "files/sheet_03.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2025-3705",
+        "invoice_date": "2025-05-18",
+        "supplier_name": "Pinecrest Logistics",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 2650.95,
+        "tax": 397.64,
+        "total": 3048.59,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Software license",
+            "quantity": 3,
+            "unit_price": 883.65,
+            "amount": 2650.95
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_04.csv",
+      "path": "files/sheet_04.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2024-5557",
+        "invoice_date": "2025-02-17",
+        "supplier_name": "Summit Cloud Services",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 3671.88,
+        "tax": 367.19,
+        "total": 4039.07,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 8,
+            "unit_price": 191.45,
+            "amount": 1531.6
+          },
+          {
+            "description": "Support retainer",
+            "quantity": 9,
+            "unit_price": 217.47,
+            "amount": 1957.23
+          },
+          {
+            "description": "Training workshop",
+            "quantity": 1,
+            "unit_price": 183.05,
+            "amount": 183.05
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_05.csv",
+      "path": "files/sheet_05.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2026-7086",
+        "invoice_date": "2025-02-19",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 5117.85,
+        "tax": 767.68,
+        "total": 5885.53,
+        "currency": "EUR",
+        "line_items": [
+          {
+            "description": "Support retainer",
+            "quantity": 9,
+            "unit_price": 568.65,
+            "amount": 5117.85
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_06.csv",
+      "path": "files/sheet_06.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2026-6122",
+        "invoice_date": "2025-08-22",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Atlas Engineering",
+        "subtotal": 2088.18,
+        "tax": 104.41,
+        "total": 2192.59,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Support retainer",
+            "quantity": 9,
+            "unit_price": 232.02,
+            "amount": 2088.18
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "sheet_07.csv",
+      "path": "files/sheet_07.csv",
+      "category": "csv",
+      "expected": {
+        "invoice_number": "INV-2025-8780",
+        "invoice_date": "2024-07-28",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 7245.43,
+        "tax": 362.27,
+        "total": 7607.7,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Software license",
+            "quantity": 1,
+            "unit_price": 24.95,
+            "amount": 24.95
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 6,
+            "unit_price": 276.85,
+            "amount": 1661.1
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 6,
+            "unit_price": 483.03,
+            "amount": 2898.18
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 5,
+            "unit_price": 532.24,
+            "amount": 2661.2
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": []
+    },
+    {
+      "id": "xverify_0_pdf.pdf",
+      "path": "files/xverify_0_pdf.pdf",
+      "category": "cross_verify",
+      "expected": {
+        "invoice_number": "XV-2025-100",
+        "invoice_date": "2025-06-14",
+        "supplier_name": "Orion Hardware Co",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 8155.35,
+        "tax": 815.53,
+        "total": 8970.88,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 1,
+            "unit_price": 582.23,
+            "amount": 582.23
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 6,
+            "unit_price": 537.28,
+            "amount": 3223.68
+          },
+          {
+            "description": "Design work",
+            "quantity": 8,
+            "unit_price": 543.68,
+            "amount": 4349.44
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "pair_match"
+      ]
+    },
+    {
+      "id": "xverify_0_sheet.xlsx",
+      "path": "files/xverify_0_sheet.xlsx",
+      "category": "cross_verify",
+      "expected": {
+        "invoice_number": "XV-2025-100",
+        "invoice_date": "2025-06-14",
+        "supplier_name": "Orion Hardware Co",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 8155.35,
+        "tax": 815.53,
+        "total": 8970.88,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 1,
+            "unit_price": 582.23,
+            "amount": 582.23
+          },
+          {
+            "description": "Network cable pack",
+            "quantity": 6,
+            "unit_price": 537.28,
+            "amount": 3223.68
+          },
+          {
+            "description": "Design work",
+            "quantity": 8,
+            "unit_price": 543.68,
+            "amount": 4349.44
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "pair_match"
+      ]
+    },
+    {
+      "id": "xverify_1_pdf.pdf",
+      "path": "files/xverify_1_pdf.pdf",
+      "category": "cross_verify",
+      "expected": {
+        "invoice_number": "XV-2025-101",
+        "invoice_date": "2024-07-20",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 5335.56,
+        "tax": 533.56,
+        "total": 5869.12,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 9,
+            "unit_price": 592.84,
+            "amount": 5335.56
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "pair_match"
+      ]
+    },
+    {
+      "id": "xverify_1_sheet.xlsx",
+      "path": "files/xverify_1_sheet.xlsx",
+      "category": "cross_verify",
+      "expected": {
+        "invoice_number": "XV-2025-101",
+        "invoice_date": "2024-07-20",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Metro Retail Group",
+        "subtotal": 5335.56,
+        "tax": 533.56,
+        "total": 5869.12,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 9,
+            "unit_price": 592.84,
+            "amount": 5335.56
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "pair_match"
+      ]
+    },
+    {
+      "id": "xverify_2_pdf.pdf",
+      "path": "files/xverify_2_pdf.pdf",
+      "category": "cross_verify",
+      "expected": {
+        "invoice_number": "XV-2025-102",
+        "invoice_date": "2025-04-20",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 11825.37,
+        "tax": 591.27,
+        "total": 12416.64,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 8,
+            "unit_price": 645.28,
+            "amount": 5162.24
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 7,
+            "unit_price": 760.77,
+            "amount": 5325.39
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 2,
+            "unit_price": 668.87,
+            "amount": 1337.74
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "pair_match"
+      ]
+    },
+    {
+      "id": "xverify_2_sheet.xlsx",
+      "path": "files/xverify_2_sheet.xlsx",
+      "category": "cross_verify",
+      "expected": {
+        "invoice_number": "XV-2025-102",
+        "invoice_date": "2025-04-20",
+        "supplier_name": "Bengal Tech Solutions",
+        "customer_name": "Blue Harbor Clinic",
+        "subtotal": 11825.37,
+        "tax": 591.27,
+        "total": 12416.64,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Web hosting",
+            "quantity": 8,
+            "unit_price": 645.28,
+            "amount": 5162.24
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 7,
+            "unit_price": 760.77,
+            "amount": 5325.39
+          },
+          {
+            "description": "Printer cartridge",
+            "quantity": 2,
+            "unit_price": 668.87,
+            "amount": 1337.74
+          }
+        ]
+      },
+      "expected_review": false,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "pair_match"
+      ]
+    },
+    {
+      "id": "bad_total_0.pdf",
+      "path": "files/bad_total_0.pdf",
+      "category": "arithmetic_error",
+      "expected": {
+        "invoice_number": "INV-2024-7368",
+        "invoice_date": "2024-11-30",
+        "supplier_name": "Summit Cloud Services",
+        "customer_name": "Karim & Sons",
+        "subtotal": 7049.27,
+        "tax": 704.93,
+        "total": 7791.7,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 5,
+            "unit_price": 269.58,
+            "amount": 1347.9
+          },
+          {
+            "description": "Software license",
+            "quantity": 2,
+            "unit_price": 792.64,
+            "amount": 1585.28
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 3,
+            "unit_price": 238.03,
+            "amount": 714.09
+          },
+          {
+            "description": "Software license",
+            "quantity": 4,
+            "unit_price": 850.5,
+            "amount": 3402.0
+          }
+        ]
+      },
+      "expected_review": true,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "expect_total_mismatch"
+      ]
+    },
+    {
+      "id": "bad_total_1.pdf",
+      "path": "files/bad_total_1.pdf",
+      "category": "arithmetic_error",
+      "expected": {
+        "invoice_number": "INV-2024-1539",
+        "invoice_date": "2024-06-24",
+        "supplier_name": "Apex Office Supplies Ltd",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 4578.42,
+        "tax": 457.84,
+        "total": 5073.76,
+        "currency": "BDT",
+        "line_items": [
+          {
+            "description": "Design work",
+            "quantity": 5,
+            "unit_price": 711.34,
+            "amount": 3556.7
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 2,
+            "unit_price": 510.86,
+            "amount": 1021.72
+          }
+        ]
+      },
+      "expected_review": true,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "expect_total_mismatch"
+      ]
+    },
+    {
+      "id": "bad_total_2.pdf",
+      "path": "files/bad_total_2.pdf",
+      "category": "arithmetic_error",
+      "expected": {
+        "invoice_number": "INV-2024-9747",
+        "invoice_date": "2025-01-19",
+        "supplier_name": "Northwind Traders",
+        "customer_name": "Lotus Garments",
+        "subtotal": 63.86,
+        "tax": 6.39,
+        "total": 107.75,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Consulting services",
+            "quantity": 1,
+            "unit_price": 63.86,
+            "amount": 63.86
+          }
+        ]
+      },
+      "expected_review": true,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "expect_total_mismatch"
+      ]
+    },
+    {
+      "id": "duplicate_a.pdf",
+      "path": "files/duplicate_a.pdf",
+      "category": "duplicate",
+      "expected": {
+        "invoice_number": "DUP-2025-777",
+        "invoice_date": "2024-09-19",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 1819.21,
+        "tax": 272.88,
+        "total": 2092.09,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Printer cartridge",
+            "quantity": 2,
+            "unit_price": 123.73,
+            "amount": 247.46
+          },
+          {
+            "description": "Software license",
+            "quantity": 5,
+            "unit_price": 290.63,
+            "amount": 1453.15
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 5,
+            "unit_price": 23.72,
+            "amount": 118.6
+          }
+        ]
+      },
+      "expected_review": true,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "expect_duplicate"
+      ]
+    },
+    {
+      "id": "duplicate_b.pdf",
+      "path": "files/duplicate_b.pdf",
+      "category": "duplicate",
+      "expected": {
+        "invoice_number": "DUP-2025-777",
+        "invoice_date": "2024-09-19",
+        "supplier_name": "Delta Print House",
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 1819.21,
+        "tax": 272.88,
+        "total": 2092.09,
+        "currency": "GBP",
+        "line_items": [
+          {
+            "description": "Printer cartridge",
+            "quantity": 2,
+            "unit_price": 123.73,
+            "amount": 247.46
+          },
+          {
+            "description": "Software license",
+            "quantity": 5,
+            "unit_price": 290.63,
+            "amount": 1453.15
+          },
+          {
+            "description": "Cloud storage",
+            "quantity": 5,
+            "unit_price": 23.72,
+            "amount": 118.6
+          }
+        ]
+      },
+      "expected_review": true,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "expect_duplicate"
+      ]
+    },
+    {
+      "id": "missing_supplier.pdf",
+      "path": "files/missing_supplier.pdf",
+      "category": "missing_required",
+      "expected": {
+        "invoice_number": "INV-2024-6698",
+        "invoice_date": "2024-02-25",
+        "supplier_name": null,
+        "customer_name": "Greenleaf Foods",
+        "subtotal": 7695.46,
+        "tax": null,
+        "total": 7695.46,
+        "currency": "USD",
+        "line_items": [
+          {
+            "description": "Network cable pack",
+            "quantity": 2,
+            "unit_price": 315.37,
+            "amount": 630.74
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 9,
+            "unit_price": 511.66,
+            "amount": 4604.94
+          },
+          {
+            "description": "Consulting services",
+            "quantity": 5,
+            "unit_price": 157.48,
+            "amount": 787.4
+          },
+          {
+            "description": "Web hosting",
+            "quantity": 9,
+            "unit_price": 185.82,
+            "amount": 1672.38
+          }
+        ]
+      },
+      "expected_review": true,
+      "notes": "",
+      "corrupt": false,
+      "tags": [
+        "expect_missing_required"
+      ]
+    },
+    {
+      "id": "corrupt_random.pdf",
+      "path": "files/corrupt_random.pdf",
+      "category": "corrupt",
+      "expected": {},
+      "expected_review": true,
+      "notes": "",
+      "corrupt": true,
+      "tags": []
+    },
+    {
+      "id": "truncated.pdf",
+      "path": "files/truncated.pdf",
+      "category": "corrupt",
+      "expected": {},
+      "expected_review": true,
+      "notes": "",
+      "corrupt": true,
+      "tags": []
+    },
+    {
+      "id": "wrong_extension.png",
+      "path": "files/wrong_extension.png",
+      "category": "corrupt",
+      "expected": {},
+      "expected_review": true,
+      "notes": "",
+      "corrupt": true,
+      "tags": []
+    },
+    {
+      "id": "garbage.xlsx",
+      "path": "files/garbage.xlsx",
+      "category": "corrupt",
+      "expected": {},
+      "expected_review": true,
+      "notes": "",
+      "corrupt": true,
+      "tags": []
+    }
+  ]
+}
