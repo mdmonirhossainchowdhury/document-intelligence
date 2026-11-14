@@ -1,0 +1,121 @@
+Test results - 2026-11-12T10:07Z
+Command: python -m pytest tests --cov=backend/app --cov-report=term-missing -v
+
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+rootdir: /home/claude/document-intelligence
+plugins: platformdirs-4.13.5, anyio-4.15.1, cov-7.1.0
+collecting ... collected 88 items
+
+tests/test_api.py::test_health_and_docs_available PASSED                 [  1%]
+tests/test_api.py::test_security_headers_present PASSED                  [  2%]
+tests/test_api.py::test_unsupported_upload_is_rejected_without_queueing PASSED [  3%]
+tests/test_api.py::test_empty_file_is_rejected PASSED                    [  4%]
+tests/test_api.py::test_path_traversal_in_filename_is_neutralised PASSED [  5%]
+tests/test_api.py::test_oversize_upload_is_rejected PASSED               [  6%]
+tests/test_api.py::test_end_to_end_digital_invoice_flow PASSED           [  7%]
+tests/test_api.py::test_corrupt_upload_fails_permanently_without_retry PASSED [  9%]
+tests/test_api.py::test_mismatched_extension_fails_with_clear_code PASSED [ 10%]
+tests/test_api.py::test_manual_correction_revalidates_and_clears_review PASSED [ 11%]
+tests/test_api.py::test_correction_rejects_unknown_fields_and_bad_currency PASSED [ 12%]
+tests/test_api.py::test_duplicate_invoice_flags_both_documents PASSED    [ 13%]
+tests/test_api.py::test_identical_file_is_reported_as_duplicate_of PASSED [ 14%]
+tests/test_api.py::test_keyword_and_semantic_search_find_processed_document PASSED [ 15%]
+tests/test_api.py::test_search_rejects_empty_query PASSED                [ 17%]
+tests/test_api.py::test_list_filters_by_supplier_and_status PASSED       [ 18%]
+tests/test_api.py::test_list_rejects_invalid_status_filter PASSED        [ 19%]
+tests/test_api.py::test_download_original_file PASSED                    [ 20%]
+tests/test_api.py::test_reprocess_failed_document_after_transient_outage PASSED [ 21%]
+tests/test_api.py::test_reprocess_rejects_document_already_in_queue PASSED [ 22%]
+tests/test_api.py::test_delete_removes_document_and_index PASSED         [ 23%]
+tests/test_api.py::test_unknown_document_returns_404 PASSED              [ 25%]
+tests/test_api.py::test_api_key_enforced_when_configured PASSED          [ 26%]
+tests/test_api.py::test_stats_reports_failure_rate PASSED                [ 27%]
+tests/test_extraction_and_validation.py::test_parse_amount[1,234.50-1234.5] PASSED [ 28%]
+tests/test_extraction_and_validation.py::test_parse_amount[1234.5-1234.5] PASSED [ 29%]
+tests/test_extraction_and_validation.py::test_parse_amount[1.234,50-1234.5] PASSED [ 30%]
+tests/test_extraction_and_validation.py::test_parse_amount[12,5-12.5] PASSED [ 31%]
+tests/test_extraction_and_validation.py::test_parse_amount[USD 99.90-99.9] PASSED [ 32%]
+tests/test_extraction_and_validation.py::test_parse_amount[\u09f3 12,000-12000.0] PASSED [ 34%]
+tests/test_extraction_and_validation.py::test_parse_amount[$1,234,567.00-1234567.0] PASSED [ 35%]
+tests/test_extraction_and_validation.py::test_parse_amount[-40.00--40.0] PASSED [ 36%]
+tests/test_extraction_and_validation.py::test_parse_amount[(15%)-15.0] PASSED [ 37%]
+tests/test_extraction_and_validation.py::test_parse_amount_rejects_non_numbers[N/A] PASSED [ 38%]
+tests/test_extraction_and_validation.py::test_parse_amount_rejects_non_numbers[TBD] PASSED [ 39%]
+tests/test_extraction_and_validation.py::test_parse_amount_rejects_non_numbers[] PASSED [ 40%]
+tests/test_extraction_and_validation.py::test_parse_amount_rejects_non_numbers[None] PASSED [ 42%]
+tests/test_extraction_and_validation.py::test_parse_date_formats[2025-03-15-2025-03-15] PASSED [ 43%]
+tests/test_extraction_and_validation.py::test_parse_date_formats[15/03/2025-2025-03-15] PASSED [ 44%]
+tests/test_extraction_and_validation.py::test_parse_date_formats[15 Mar 2025-2025-03-15] PASSED [ 45%]
+tests/test_extraction_and_validation.py::test_parse_date_formats[March 15, 2025-2025-03-15] PASSED [ 46%]
+tests/test_extraction_and_validation.py::test_parse_date_formats[03/15/2025-2025-03-15] PASSED [ 47%]
+tests/test_extraction_and_validation.py::test_parse_date_formats[15-Mar-2025-2025-03-15] PASSED [ 48%]
+tests/test_extraction_and_validation.py::test_ambiguous_date_is_low_confidence PASSED [ 50%]
+tests/test_extraction_and_validation.py::test_unparseable_date_returns_none PASSED [ 51%]
+tests/test_extraction_and_validation.py::test_currency_detection_prefers_iso_code_near_total PASSED [ 52%]
+tests/test_extraction_and_validation.py::test_rules_extract_all_core_fields PASSED [ 53%]
+tests/test_extraction_and_validation.py::test_rules_extract_line_items_from_text PASSED [ 54%]
+tests/test_extraction_and_validation.py::test_missing_fields_are_null_never_invented PASSED [ 55%]
+tests/test_extraction_and_validation.py::test_unparseable_total_is_recorded_as_raw_value PASSED [ 56%]
+tests/test_extraction_and_validation.py::test_table_based_line_items_from_spreadsheet_rows PASSED [ 57%]
+tests/test_extraction_and_validation.py::test_ocr_flag_reduces_confidence PASSED [ 59%]
+tests/test_extraction_and_validation.py::test_llm_values_are_grounded_and_hallucinations_discarded PASSED [ 60%]
+tests/test_extraction_and_validation.py::test_llm_failure_falls_back_to_rules PASSED [ 61%]
+tests/test_extraction_and_validation.py::test_llm_http_error_falls_back_to_rules PASSED [ 62%]
+tests/test_extraction_and_validation.py::test_clean_record_has_no_errors PASSED [ 63%]
+tests/test_extraction_and_validation.py::test_missing_required_fields_are_errors PASSED [ 64%]
+tests/test_extraction_and_validation.py::test_missing_optional_field_is_warning_only PASSED [ 65%]
+tests/test_extraction_and_validation.py::test_total_mismatch_detected PASSED [ 67%]
+tests/test_extraction_and_validation.py::test_line_items_must_sum_to_subtotal PASSED [ 68%]
+tests/test_extraction_and_validation.py::test_line_item_arithmetic_warning PASSED [ 69%]
+tests/test_extraction_and_validation.py::test_negative_and_invalid_numbers PASSED [ 70%]
+tests/test_extraction_and_validation.py::test_future_date_warning PASSED [ 71%]
+tests/test_extraction_and_validation.py::test_duplicate_invoice_same_supplier_is_error PASSED [ 72%]
+tests/test_extraction_and_validation.py::test_pdf_vs_excel_value_mismatch_is_error PASSED [ 73%]
+tests/test_extraction_and_validation.py::test_pdf_vs_excel_agreement_is_verification_not_duplicate PASSED [ 75%]
+tests/test_extraction_and_validation.py::test_same_number_different_supplier_is_warning_only PASSED [ 76%]
+tests/test_extraction_and_validation.py::test_low_field_confidence_and_poor_image_quality PASSED [ 77%]
+tests/test_pipeline.py::test_detects_each_supported_type PASSED          [ 78%]
+tests/test_pipeline.py::test_extension_content_mismatch_is_rejected PASSED [ 79%]
+tests/test_pipeline.py::test_unsupported_extension_rejected PASSED       [ 80%]
+tests/test_pipeline.py::test_binary_garbage_is_corrupt PASSED            [ 81%]
+tests/test_pipeline.py::test_multipage_digital_pdf_text_extraction PASSED [ 82%]
+tests/test_pipeline.py::test_scanned_pdf_uses_ocr_path PASSED            [ 84%]
+tests/test_pipeline.py::test_encrypted_pdf_is_permanent_failure PASSED   [ 85%]
+tests/test_pipeline.py::test_truncated_pdf_fails_cleanly PASSED          [ 86%]
+tests/test_pipeline.py::test_blank_pdf_yields_no_text PASSED             [ 87%]
+tests/test_pipeline.py::test_clean_png_ocr_recovers_invoice_number PASSED [ 88%]
+tests/test_pipeline.py::test_multiframe_tiff_is_processed_per_frame PASSED [ 89%]
+tests/test_pipeline.py::test_blank_image_is_rejected PASSED              [ 90%]
+tests/test_pipeline.py::test_otsu_threshold_separates_bimodal_histogram PASSED [ 92%]
+tests/test_pipeline.py::test_ocr_unavailable_is_transient PASSED         [ 93%]
+tests/test_pipeline.py::test_multisheet_xlsx_parses_every_sheet PASSED   [ 94%]
+tests/test_pipeline.py::test_csv_with_variable_width_rows_keeps_line_items PASSED [ 95%]
+tests/test_pipeline.py::test_csv_encoding_fallback PASSED                [ 96%]
+tests/test_pipeline.py::test_empty_csv_has_no_data PASSED                [ 97%]
+tests/test_pipeline.py::test_sheet_row_limit_truncates_with_warning PASSED [ 98%]
+tests/test_pipeline.py::test_pipeline_never_leaks_unexpected_exceptions_as_success PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.18-final-0 _______________
+
+Name                                 Stmts   Miss  Cover   Missing
+------------------------------------------------------------------
+backend/app/__init__.py                  0      0   100%
+backend/app/config.py                   33      2    94%   14-15
+backend/app/db.py                       59      8    86%   144, 150-152, 169, 174, 177-178
+backend/app/extraction.py              248     15    94%   73-74, 81, 96, 161, 222, 226, 231, 256, 299, 312, 346, 353-355
+backend/app/jobs.py                     68      4    94%   37, 49, 76-77
+backend/app/main.py                    245     27    89%   103, 107, 132, 198, 200, 253, 255, 257, 259, 261, 263, 301-302, 312, 314, 317-318, 333, 348-351, 358, 390-394
+backend/app/pipeline/__init__.py         0      0   100%
+backend/app/pipeline/errors.py           7      0   100%
+backend/app/pipeline/image_proc.py      86      7    92%   79, 92-93, 100-101, 111, 113
+backend/app/pipeline/ingest.py          85      3    96%   67-68, 94
+backend/app/pipeline/pdf_proc.py        66      6    91%   35, 38, 58, 66-67, 85
+backend/app/pipeline/sheet_proc.py      84     11    87%   33, 35, 50, 72, 91-95, 98-99
+backend/app/processing.py              133     14    89%   44-48, 131, 167, 182-183, 196-197, 217, 220, 229
+backend/app/search.py                   77      5    94%   30, 46, 74, 87, 90
+backend/app/validation.py              100     10    90%   33, 80, 89-90, 95, 129, 135, 162-165
+------------------------------------------------------------------
+TOTAL                                 1291    112    91%
+============================== 88 passed in 9.91s ==============================
