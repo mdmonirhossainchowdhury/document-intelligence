@@ -1,0 +1,11 @@
+Invoice Number,INV-2024-3134
+Invoice Date,2024-02-23
+Supplier,Northwind Traders
+Customer,Atlas Engineering
+Subtotal,4154.31
+Tax,623.15
+Total,4777.46
+Currency,BDT
+
+Description,Qty,Unit Price,Amount
+Printer cartridge,9,461.59,4154.31

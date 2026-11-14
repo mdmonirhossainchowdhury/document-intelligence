@@ -1,0 +1,13 @@
+Invoice Number,INV-2025-4854
+Invoice Date,"May 16, 2025"
+Supplier,Orion Hardware Co
+Customer,Lotus Garments
+Subtotal,8127.30
+Total,8127.30
+Currency,BDT
+
+Description,Qty,Unit Price,Amount
+Network cable pack,5,585.88,2929.40
+Support retainer,4,386.04,1544.16
+Training workshop,8,455.70,3645.60
+Laptop stand,1,8.14,8.14

@@ -1,0 +1,11 @@
+Invoice Number,INV-2025-3705
+Invoice Date,18/05/2025
+Supplier,Pinecrest Logistics
+Customer,Greenleaf Foods
+Subtotal,2650.95
+Tax,397.64
+Total,3048.59
+Currency,USD
+
+Description,Qty,Unit Price,Amount
+Software license,3,883.65,2650.95

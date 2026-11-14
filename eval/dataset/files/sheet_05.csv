@@ -1,0 +1,11 @@
+Invoice Number,INV-2026-7086
+Invoice Date,19 Feb 2025
+Supplier,Delta Print House
+Customer,Metro Retail Group
+Subtotal,5117.85
+Tax,767.68
+Total,5885.53
+Currency,EUR
+
+Description,Qty,Unit Price,Amount
+Support retainer,9,568.65,5117.85

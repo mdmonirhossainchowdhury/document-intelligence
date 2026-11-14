@@ -1,0 +1,12 @@
+Invoice Number,INV-2025-6885
+Invoice Date,06/21/2024
+Supplier,Northwind Traders
+Customer,Blue Harbor Clinic
+Subtotal,7448.18
+Tax,744.82
+Total,8193.00
+Currency,EUR
+
+Description,Qty,Unit Price,Amount
+Printer cartridge,3,511.06,1533.18
+Web hosting,7,845.00,5915.00

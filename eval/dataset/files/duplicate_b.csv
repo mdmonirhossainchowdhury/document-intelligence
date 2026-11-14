@@ -1,0 +1,13 @@
+Invoice Number,DUP-2025-777
+Invoice Date,09/19/2024
+Supplier,Delta Print House
+Customer,Greenleaf Foods
+Subtotal,1819.21
+Tax,272.88
+Total,2092.09
+Currency,GBP
+
+Description,Qty,Unit Price,Amount
+Printer cartridge,2,123.73,247.46
+Software license,5,290.63,1453.15
+Cloud storage,5,23.72,118.60

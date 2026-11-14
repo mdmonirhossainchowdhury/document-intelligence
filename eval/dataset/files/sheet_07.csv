@@ -1,0 +1,14 @@
+Invoice Number,INV-2025-8780
+Invoice Date,28/07/2024
+Supplier,Bengal Tech Solutions
+Customer,Blue Harbor Clinic
+Subtotal,7245.43
+Tax,362.27
+Total,7607.70
+Currency,USD
+
+Description,Qty,Unit Price,Amount
+Software license,1,24.95,24.95
+Web hosting,6,276.85,1661.10
+Network cable pack,6,483.03,2898.18
+Cloud storage,5,532.24,2661.20
