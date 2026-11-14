@@ -1,0 +1,183 @@
+{
+  "dataset": {
+    "samples": 72,
+    "invoice_samples": 68,
+    "corrupt_samples": 4,
+    "seed": 7
+  },
+  "document_success_rate": 1.0,
+  "document_failure_rate": 0.0,
+  "corrupt_files_correctly_rejected": "4/4",
+  "overall_field_accuracy": 0.9596,
+  "field_accuracy": {
+    "invoice_number": 0.9265,
+    "invoice_date": 0.9706,
+    "supplier_name": 0.9706,
+    "customer_name": 0.9706,
+    "subtotal": 0.9118,
+    "tax": 1.0,
+    "total": 0.9559,
+    "currency": 0.9706
+  },
+  "field_recall_on_populated": {
+    "invoice_number": 0.9412,
+    "invoice_date": 0.9706,
+    "supplier_name": 0.9851,
+    "customer_name": 0.9844,
+    "subtotal": 0.9118,
+    "tax": 1.0,
+    "total": 0.9559,
+    "currency": 0.9706
+  },
+  "invented_value_rate": 0.0,
+  "invented_values": 0,
+  "field_invented": {
+    "invoice_number": 0,
+    "invoice_date": 0,
+    "supplier_name": 0,
+    "customer_name": 0,
+    "subtotal": 0,
+    "tax": 0,
+    "total": 0,
+    "currency": 0
+  },
+  "line_item_list_exact_match": 0.9853,
+  "review_flagging": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "false_flag_rate_on_clean": 0.0968,
+    "tp": 6,
+    "fp": 6,
+    "fn": 0,
+    "tn": 56
+  },
+  "review_flagging_combined": {
+    "description": "should_review = design defect OR measured extraction error",
+    "precision": 1.0,
+    "recall": 1.0,
+    "false_flag_rate_on_correct_records": 0.0,
+    "tp": 12,
+    "fp": 0,
+    "fn": 0,
+    "tn": 56
+  },
+  "review_flagging_vs_measured_errors": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "false_flag_rate_on_correct_records": 0.0968,
+    "tp": 6,
+    "fp": 6,
+    "fn": 0,
+    "tn": 56
+  },
+  "processing_time_ms": {
+    "per_document_mean": 187.6,
+    "per_document_median": 11.0,
+    "per_document_p95": 998
+  },
+  "batch_wall_clock_s": 8.57,
+  "throughput_docs_per_s": 8.4,
+  "per_category": {
+    "digital_pdf": {
+      "n": 20,
+      "processed": 20,
+      "failed": 0,
+      "needs_review": 0,
+      "field_correct": 160,
+      "field_total": 160
+    },
+    "scanned_pdf": {
+      "n": 6,
+      "processed": 6,
+      "failed": 0,
+      "needs_review": 0,
+      "field_correct": 48,
+      "field_total": 48
+    },
+    "image_clean": {
+      "n": 6,
+      "processed": 6,
+      "failed": 0,
+      "needs_review": 0,
+      "field_correct": 48,
+      "field_total": 48
+    },
+    "image_degraded": {
+      "n": 6,
+      "processed": 6,
+      "failed": 0,
+      "needs_review": 6,
+      "field_correct": 26,
+      "field_total": 48
+    },
+    "xlsx": {
+      "n": 10,
+      "processed": 10,
+      "failed": 0,
+      "needs_review": 0,
+      "field_correct": 80,
+      "field_total": 80
+    },
+    "csv": {
+      "n": 8,
+      "processed": 8,
+      "failed": 0,
+      "needs_review": 0,
+      "field_correct": 64,
+      "field_total": 64
+    },
+    "cross_verify": {
+      "n": 6,
+      "processed": 6,
+      "failed": 0,
+      "needs_review": 0,
+      "field_correct": 48,
+      "field_total": 48
+    },
+    "arithmetic_error": {
+      "n": 3,
+      "processed": 3,
+      "failed": 0,
+      "needs_review": 3,
+      "field_correct": 24,
+      "field_total": 24
+    },
+    "duplicate": {
+      "n": 2,
+      "processed": 2,
+      "failed": 0,
+      "needs_review": 2,
+      "field_correct": 16,
+      "field_total": 16
+    },
+    "missing_required": {
+      "n": 1,
+      "processed": 1,
+      "failed": 0,
+      "needs_review": 1,
+      "field_correct": 8,
+      "field_total": 8
+    },
+    "corrupt": {
+      "n": 4,
+      "processed": 0,
+      "failed": 4,
+      "needs_review": 0,
+      "field_correct": 0,
+      "field_total": 0
+    }
+  },
+  "failure_codes": {
+    "corrupt_file": 3,
+    "type_mismatch": 1
+  },
+  "rules_triggered": {
+    "MISSING_FIELD": 23,
+    "MISSING_REQUIRED_FIELD": 7,
+    "CROSS_DOCUMENT_MATCH": 6,
+    "LOW_FIELD_CONFIDENCE": 5,
+    "TOTAL_MISMATCH": 3,
+    "LINE_ITEM_ARITHMETIC": 2,
+    "DUPLICATE_INVOICE": 2
+  }
+}

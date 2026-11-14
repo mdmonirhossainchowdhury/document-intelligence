@@ -1,0 +1,73 @@
+sample,category,final_status,error_code,expected_review,rules_triggered,pred_invoice_number,exp_invoice_number,pred_total,exp_total,pred_supplier,exp_supplier,processing_ms,measured_field_error
+digital_00.pdf,digital_pdf,completed,,False,MISSING_FIELD,INV-2026-4517,INV-2026-4517,734.41,734.41,Apex Office Supplies Ltd,Apex Office Supplies Ltd,21,False
+digital_01.pdf,digital_pdf,completed,,False,LOW_FIELD_CONFIDENCE,INV-2024-3181,INV-2024-3181,380.23,380.23,Delta Print House,Delta Print House,8,False
+digital_02.pdf,digital_pdf,completed,,False,,INV-2026-9711,INV-2026-9711,1781.89,1781.89,Riverside Stationery,Riverside Stationery,13,False
+digital_03.pdf,digital_pdf,completed,,False,,INV-2025-3490,INV-2025-3490,10481.58,10481.58,Orion Hardware Co,Orion Hardware Co,8,False
+digital_04.pdf,digital_pdf,completed,,False,,INV-2025-3753,INV-2025-3753,4250.82,4250.82,Northwind Traders,Northwind Traders,12,False
+digital_05.pdf,digital_pdf,completed,,False,LOW_FIELD_CONFIDENCE;MISSING_FIELD,INV-2024-4800,INV-2024-4800,14506.43,14506.43,Pinecrest Logistics,Pinecrest Logistics,9,False
+digital_06.pdf,digital_pdf,completed,,False,MISSING_FIELD,INV-2024-8889,INV-2024-8889,18379.44,18379.44,Riverside Stationery,Riverside Stationery,10,False
+digital_07.pdf,digital_pdf,completed,,False,MISSING_FIELD,INV-2026-7164,INV-2026-7164,1776.55,1776.55,Bengal Tech Solutions,Bengal Tech Solutions,13,False
+digital_08.pdf,digital_pdf,completed,,False,,INV-2024-9652,INV-2024-9652,3657.28,3657.28,Delta Print House,Delta Print House,12,False
+digital_09.pdf,digital_pdf,completed,,False,,INV-2025-1474,INV-2025-1474,4187.7,4187.7,Apex Office Supplies Ltd,Apex Office Supplies Ltd,11,False
+digital_10.pdf,digital_pdf,completed,,False,,INV-2025-6636,INV-2025-6636,3623.3,3623.3,Northwind Traders,Northwind Traders,8,False
+digital_11.pdf,digital_pdf,completed,,False,,INV-2026-6741,INV-2026-6741,7657.0,7657.0,Bengal Tech Solutions,Bengal Tech Solutions,16,False
+digital_12.pdf,digital_pdf,completed,,False,MISSING_FIELD,INV-2025-9466,INV-2025-9466,4255.91,4255.91,Riverside Stationery,Riverside Stationery,11,False
+digital_13.pdf,digital_pdf,completed,,False,LOW_FIELD_CONFIDENCE,INV-2026-8905,INV-2026-8905,5265.99,5265.99,Northwind Traders,Northwind Traders,15,False
+digital_14.pdf,digital_pdf,completed,,False,MISSING_FIELD,INV-2026-4319,INV-2026-4319,17757.68,17757.68,Orion Hardware Co,Orion Hardware Co,14,False
+digital_15.pdf,digital_pdf,completed,,False,MISSING_FIELD,INV-2025-4597,INV-2025-4597,2413.5,2413.5,Northwind Traders,Northwind Traders,13,False
+digital_16.pdf,digital_pdf,completed,,False,,INV-2025-1296,INV-2025-1296,957.43,957.43,Riverside Stationery,Riverside Stationery,14,False
+digital_17.pdf,digital_pdf,completed,,False,,INV-2026-9103,INV-2026-9103,8130.01,8130.01,Summit Cloud Services,Summit Cloud Services,12,False
+digital_18.pdf,digital_pdf,completed,,False,MISSING_FIELD,INV-2024-5332,INV-2024-5332,1153.57,1153.57,Northwind Traders,Northwind Traders,8,False
+digital_19.pdf,digital_pdf,completed,,False,,INV-2025-8302,INV-2025-8302,2954.04,2954.04,Bengal Tech Solutions,Bengal Tech Solutions,11,False
+scanned_pdf_00.pdf,scanned_pdf,completed,,False,LOW_FIELD_CONFIDENCE,INV-2025-6694,INV-2025-6694,18478.67,18478.67,Apex Office Supplies Ltd,Apex Office Supplies Ltd,1167,False
+scanned_pdf_01.pdf,scanned_pdf,completed,,False,,INV-2025-9963,INV-2025-9963,4129.48,4129.48,Summit Cloud Services,Summit Cloud Services,1130,False
+scanned_pdf_02.pdf,scanned_pdf,completed,,False,,INV-2025-1368,INV-2025-1368,2726.92,2726.92,Delta Print House,Delta Print House,998,False
+scanned_pdf_03.pdf,scanned_pdf,completed,,False,,INV-2026-1263,INV-2026-1263,11654.48,11654.48,Pinecrest Logistics,Pinecrest Logistics,1004,False
+scanned_pdf_04.pdf,scanned_pdf,completed,,False,,INV-2025-2148,INV-2025-2148,1860.26,1860.26,Northwind Traders,Northwind Traders,782,False
+scanned_pdf_05.pdf,scanned_pdf,completed,,False,,INV-2026-3186,INV-2026-3186,5351.88,5351.88,Apex Office Supplies Ltd,Apex Office Supplies Ltd,1200,False
+image_00.png,image_clean,completed,,False,,INV-2025-7338,INV-2025-7338,4795.12,4795.12,Pinecrest Logistics,Pinecrest Logistics,544,False
+image_01.png,image_clean,completed,,False,MISSING_FIELD,INV-2025-3305,INV-2025-3305,11578.37,11578.37,Riverside Stationery,Riverside Stationery,533,False
+image_02.png,image_clean,completed,,False,,INV-2025-8013,INV-2025-8013,3819.3,3819.3,Detta Print House,Delta Print House,529,False
+image_03.png,image_clean,completed,,False,,INV-2025-3270,INV-2025-3270,12530.58,12530.58,Delta Print House,Delta Print House,512,False
+image_04.png,image_clean,completed,,False,MISSING_FIELD,INV-2026-4604,INV-2026-4604,2264.29,2264.29,Orion Hardware Co,Orion Hardware Co,510,False
+image_05.png,image_clean,completed,,False,MISSING_FIELD,INV-2024-1329,INV-2024-1329,1338.52,1338.52,Riverside Stationery,Riverside Stationery,484,False
+image_06_degraded.png,image_degraded,needs_review,,False,MISSING_FIELD;MISSING_REQUIRED_FIELD,,INV-2025-6112,,7709.65,Apex Office Supplies Ltd,Apex Office Supplies Ltd,479,True
+image_07_degraded.png,image_degraded,needs_review,,False,LINE_ITEM_ARITHMETIC;MISSING_FIELD;MISSING_REQUIRED_FIELD,,INV-2024-1647,,2494.73,Apex Office Supplies Lid,Apex Office Supplies Ltd,486,True
+image_08_degraded.png,image_degraded,needs_review,,False,MISSING_FIELD;MISSING_REQUIRED_FIELD,,INV-2024-7358,,575.0,Oceta Print House,Delta Print House,481,True
+image_09_degraded.png,image_degraded,needs_review,,False,MISSING_FIELD;MISSING_REQUIRED_FIELD,INV-2025-7861,INV-2025-7881,437.07,437.07,Northwind Traders,Northwind Traders,414,True
+image_10_degraded.png,image_degraded,needs_review,,False,LINE_ITEM_ARITHMETIC;MISSING_FIELD;MISSING_REQUIRED_FIELD,,INV-2025-2785,6856.33,6856.33,Orion Hardware Co,Orion Hardware Co,575,True
+image_11_degraded.png,image_degraded,needs_review,,False,MISSING_FIELD;MISSING_REQUIRED_FIELD,INV-2026-2854,INV-2026-2854,2531.58,2531.58,,Northwind Traders,441,True
+sheet_00.xlsx,xlsx,completed,,False,MISSING_FIELD,INV-2025-2437,INV-2025-2437,10735.7,10735.7,Apex Office Supplies Ltd,Apex Office Supplies Ltd,19,False
+sheet_01.xlsx,xlsx,completed,,False,,INV-2026-1714,INV-2026-1714,4202.39,4202.39,Delta Print House,Delta Print House,7,False
+sheet_02.xlsx,xlsx,completed,,False,,INV-2025-8549,INV-2025-8549,9438.26,9438.26,Summit Cloud Services,Summit Cloud Services,8,False
+sheet_03.xlsx,xlsx,completed,,False,MISSING_FIELD,INV-2024-4837,INV-2024-4837,9153.77,9153.77,Bengal Tech Solutions,Bengal Tech Solutions,8,False
+sheet_04.xlsx,xlsx,completed,,False,,INV-2024-6346,INV-2024-6346,6564.58,6564.58,Northwind Traders,Northwind Traders,10,False
+sheet_05.xlsx,xlsx,completed,,False,,INV-2025-7125,INV-2025-7125,6997.14,6997.14,Apex Office Supplies Ltd,Apex Office Supplies Ltd,10,False
+sheet_06.xlsx,xlsx,completed,,False,,INV-2025-1626,INV-2025-1626,3295.91,3295.91,Pinecrest Logistics,Pinecrest Logistics,12,False
+sheet_07.xlsx,xlsx,completed,,False,,INV-2025-6039,INV-2025-6039,11337.95,11337.95,Riverside Stationery,Riverside Stationery,7,False
+sheet_08.xlsx,xlsx,completed,,False,MISSING_FIELD,INV-2024-1846,INV-2024-1846,10369.87,10369.87,Bengal Tech Solutions,Bengal Tech Solutions,11,False
+sheet_09.xlsx,xlsx,completed,,False,MISSING_FIELD,INV-2025-6153,INV-2025-6153,2717.38,2717.38,Apex Office Supplies Ltd,Apex Office Supplies Ltd,12,False
+sheet_00.csv,csv,completed,,False,,INV-2025-6885,INV-2025-6885,8193.0,8193.0,Northwind Traders,Northwind Traders,4,False
+sheet_01.csv,csv,completed,,False,MISSING_FIELD,INV-2025-4854,INV-2025-4854,8127.3,8127.3,Orion Hardware Co,Orion Hardware Co,4,False
+sheet_02.csv,csv,completed,,False,,INV-2024-3134,INV-2024-3134,4777.46,4777.46,Northwind Traders,Northwind Traders,5,False
+sheet_03.csv,csv,completed,,False,,INV-2025-3705,INV-2025-3705,3048.59,3048.59,Pinecrest Logistics,Pinecrest Logistics,4,False
+sheet_04.csv,csv,completed,,False,,INV-2024-5557,INV-2024-5557,4039.07,4039.07,Summit Cloud Services,Summit Cloud Services,7,False
+sheet_05.csv,csv,completed,,False,,INV-2026-7086,INV-2026-7086,5885.53,5885.53,Delta Print House,Delta Print House,4,False
+sheet_06.csv,csv,completed,,False,,INV-2026-6122,INV-2026-6122,2192.59,2192.59,Apex Office Supplies Ltd,Apex Office Supplies Ltd,3,False
+sheet_07.csv,csv,completed,,False,,INV-2025-8780,INV-2025-8780,7607.7,7607.7,Bengal Tech Solutions,Bengal Tech Solutions,3,False
+xverify_0_pdf.pdf,cross_verify,completed,,False,CROSS_DOCUMENT_MATCH,XV-2025-100,XV-2025-100,8970.88,8970.88,Orion Hardware Co,Orion Hardware Co,8,False
+xverify_0_sheet.xlsx,cross_verify,completed,,False,CROSS_DOCUMENT_MATCH,XV-2025-100,XV-2025-100,8970.88,8970.88,Orion Hardware Co,Orion Hardware Co,9,False
+xverify_1_pdf.pdf,cross_verify,completed,,False,CROSS_DOCUMENT_MATCH,XV-2025-101,XV-2025-101,5869.12,5869.12,Bengal Tech Solutions,Bengal Tech Solutions,9,False
+xverify_1_sheet.xlsx,cross_verify,completed,,False,CROSS_DOCUMENT_MATCH,XV-2025-101,XV-2025-101,5869.12,5869.12,Bengal Tech Solutions,Bengal Tech Solutions,11,False
+xverify_2_pdf.pdf,cross_verify,completed,,False,CROSS_DOCUMENT_MATCH,XV-2025-102,XV-2025-102,12416.64,12416.64,Bengal Tech Solutions,Bengal Tech Solutions,11,False
+xverify_2_sheet.xlsx,cross_verify,completed,,False,CROSS_DOCUMENT_MATCH,XV-2025-102,XV-2025-102,12416.64,12416.64,Bengal Tech Solutions,Bengal Tech Solutions,10,False
+bad_total_0.pdf,arithmetic_error,needs_review,,True,TOTAL_MISMATCH,INV-2024-7368,INV-2024-7368,7791.7,7791.7,Summit Cloud Services,Summit Cloud Services,9,False
+bad_total_1.pdf,arithmetic_error,needs_review,,True,TOTAL_MISMATCH,INV-2024-1539,INV-2024-1539,5073.76,5073.76,Apex Office Supplies Ltd,Apex Office Supplies Ltd,9,False
+bad_total_2.pdf,arithmetic_error,needs_review,,True,LOW_FIELD_CONFIDENCE;TOTAL_MISMATCH,INV-2024-9747,INV-2024-9747,107.75,107.75,Northwind Traders,Northwind Traders,9,False
+duplicate_a.pdf,duplicate,needs_review,,True,DUPLICATE_INVOICE,DUP-2025-777,DUP-2025-777,2092.09,2092.09,Delta Print House,Delta Print House,7,False
+duplicate_b.pdf,duplicate,needs_review,,True,DUPLICATE_INVOICE,DUP-2025-777,DUP-2025-777,2092.09,2092.09,Delta Print House,Delta Print House,8,False
+missing_supplier.pdf,missing_required,needs_review,,True,MISSING_FIELD;MISSING_REQUIRED_FIELD,INV-2024-6698,INV-2024-6698,7695.46,7695.46,,,10,False
+corrupt_random.pdf,corrupt,failed,corrupt_file,True,,,,,,,,0,
+truncated.pdf,corrupt,failed,corrupt_file,True,,,,,,,,0,
+wrong_extension.png,corrupt,failed,type_mismatch,True,,,,,,,,0,
+garbage.xlsx,corrupt,failed,corrupt_file,True,,,,,,,,0,
